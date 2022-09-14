@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="index.html">Minha logo</a></div>
+            <div class="mobile-menu">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="">Filmes</a></li>
+                <div class="linha"></div>
+                <li><a href="">Desenhos</a></li>
+                <div class="linha"></div>
+                <li><a href="">Séries</a></li>
+                <div class="linha"></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+                <div class="sub-menu" id="sub-menu">
+                    <div class="" id="sub-menu-link">
+                        <span><a href="">Marvel</a></span>
+                    </div>
+                </div>
+    </main>
+    <script>
+        const mobileMenu = document.querySelector(".mobile-menu");
+        mobileMenu.addEventListener("click", click)
+        const navList = document.querySelector(".nav-list" )
+        const active = "active"
+        console.log(navList.classList.contains("nav-list"))
+        function click(){
+            navList.classList.toggle(active)
+        }
+    </script>
+</body>
+</html>
