@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background: black;
+    background: radial-gradient(circle, black 0%, white 100%)
+}
 a{
     color: white;
     text-decoration: none;
