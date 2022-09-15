@@ -10,14 +10,16 @@
 <body>
     <header>
         <nav>
-            <div><a href="index.html">Minha logo</a></div>
+            <div>
+                <a href="/index.html">Minha logo</a>
+            </div>
             <div class="mobile-menu">
                 <div class="line-1"></div>
                 <div class="line-2"></div>
                 <div class="line-3"></div>
             </div>
             <ul class="nav-list">
-                <li><a href="">Filmes</a></li>
+                <li><a href="filmes/index.html">Filmes</a></li>
                 <div class="linha"></div>
                 <li><a href="">Desenhos</a></li>
                 <div class="linha"></div>
@@ -27,14 +29,17 @@
         </nav>
     </header>
     <main>
+        <div class="news" id="news">
+            <span>Ultimas Notícias</span>
+        </div>
     </main>
-    <script>
+    <script src="script.js">
         const mobileMenu = document.querySelector(".mobile-menu");
         mobileMenu.addEventListener("click", click)
         const navList = document.querySelector(".nav-list" )
         const active = "active"
         console.log(navList.classList.contains("nav-list"))
-        function click(){
+        function click(){            
             navList.classList.toggle(active)
         }
     </script>

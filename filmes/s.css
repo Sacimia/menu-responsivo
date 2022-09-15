@@ -13,10 +13,7 @@ a{
 a:hover{
     color: rgb(250, 214, 164);
 }
-img{
-    width: 50vw;
-    height: 90vh;
-}
+
 .sc-1{
     background-color: rgb(30, 48, 60);
     color: white;
@@ -49,7 +46,9 @@ h1{
     color: aliceblue;
 }
 
-
+image{
+    background-color: white;
+}
 nav{
     display: flex;
     background-color: #6d2f2f;
@@ -159,8 +158,10 @@ cursor: pointer;
 }
 
 
-.news{
+.movies-navbar-links{
     color: black;
-    position: relative;
-    top: 10px;
+}
+
+.movies-navbar-links a{
+    color: black;
 }
