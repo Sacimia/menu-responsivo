@@ -165,3 +165,8 @@ cursor: pointer;
 .movies-navbar-links a{
     color: black;
 }
+
+img{
+    width: 350px;
+    height: 200px;
+}
